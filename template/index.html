@@ -1,0 +1,90 @@
+<!--
+
+Project: QR Generator // III.IX.MMXX
+GitHub: https://github.com/gabriel-virgil
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>QR Generator</title>
+    <link rel="icon" href="static/images/fav.png" type="image/gif" sizes="16x16"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+  </head>
+  <body>
+
+<!--NAV--> 
+    <nav class="navbar is-info is-bold" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="">
+          <img src="static/images/fav.png" width="28" height="28">&nbsp;<strong>QR Generator</strong>
+        </a>
+      </div>
+    </nav>
+
+<!--TITLE--> 
+  <section class="is-fullhd">  
+      <section class="hero is-small is-info is-bold">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="title">
+              QR Code Generator
+            </h1>
+            <h2 class="subtitle">
+              Let's Start
+            </h2>
+          </div>
+        </div>
+      </section>
+
+<!--CONTENT--> 
+      <section class="is-fullhd">  
+        <section class="hero is-fullheight is-dark is-bold">
+          <div class="hero-body">
+            <div class="container">
+              <div class="columns">
+
+                <div class="column">
+                  <h1 class="title">
+                    Generate Refresh Download
+                  </h1>
+                  <p style="font-size: 12px;">Just try now, it's free!</p>
+              </div>
+
+                <div class="column">
+                  <img src="static/images/Hello.png" width="110px">
+                </div>
+   
+
+                 <div class="column">
+                  <form method="POST" action="/send_data">
+                    <input class="input is-link" type="text" name="qrtext" id="qrtext" placeholder="Your text" required>
+                    <p class="has-text-centered" style="font-size: 12px;">Type here any text you want...</p>
+                  </div>
+                 <div class="column has-text-right">
+                   <button class="button is-info is-outlined is-rounded">Generate</button>
+                 </div>
+                  </form> 
+              </div>
+            </div>
+          </div>
+        </section>
+
+<!--FOOTER--> 
+      <footer class="footer hero is-small is-dark is-bold">
+        <div class="content has-text-centered">
+          <p><strong style="color: rgb(255, 255, 255);">QR Generator </strong></p>
+          <p style="font-size: 12px;">© 2020 <a href="https://github.com/gabriel-virgil">GitHub Code</a>. Build using <strong style="color: rgb(50, 152, 220)">Python</strong> and <strong style="color: rgb(0, 210, 179)">Bulma</strong> Framework.</p>
+        </div>
+      </footer>
+  </section>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </body>
+</html>
+</body>
+</html>
